@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='ASCII'?>
 <flow_graph>
-  <timestamp>Mon Apr 18 12:59:03 2011</timestamp>
+  <timestamp>Mon Apr 18 13:07:53 2011</timestamp>
   <block>
     <key>options</key>
     <param>
@@ -198,107 +198,6 @@
     </param>
   </block>
   <block>
-    <key>gr_multiply_const_vxx</key>
-    <param>
-      <key>id</key>
-      <value>gr_multiply_const_vxx_0_1</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>const</key>
-      <value>sig_amp1</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(497, 231)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>gr_vector_source_x</key>
-    <param>
-      <key>id</key>
-      <value>gr_vector_source_x_0_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>byte</value>
-    </param>
-    <param>
-      <key>vector</key>
-      <value>scipy.array(scipy.random.randint(0,256,10000), dtype=scipy.uint8).tolist()</value>
-    </param>
-    <param>
-      <key>repeat</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(246, 313)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>180</value>
-    </param>
-  </block>
-  <block>
-    <key>gr_vector_source_x</key>
-    <param>
-      <key>id</key>
-      <value>gr_vector_source_x_0_0_1</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>byte</value>
-    </param>
-    <param>
-      <key>vector</key>
-      <value>scipy.array(scipy.random.randint(0,256,10000), dtype=scipy.uint8).tolist()</value>
-    </param>
-    <param>
-      <key>repeat</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(245, 663)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>180</value>
-    </param>
-  </block>
-  <block>
     <key>gr_pfb_synthesis_filterbank_ccf</key>
     <param>
       <key>id</key>
@@ -323,37 +222,6 @@
     <param>
       <key>_coordinate</key>
       <value>(852, 184)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>gr_multiply_const_vxx</key>
-    <param>
-      <key>id</key>
-      <value>gr_multiply_const_vxx_0_1_1</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>const</key>
-      <value>sig_amp3</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(496, 581)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1137,150 +1005,10 @@
     </param>
   </block>
   <block>
-    <key>blks2_dxpsk_mod</key>
+    <key>qpsk_tx</key>
     <param>
       <key>id</key>
-      <value>blks2_dxpsk_mod_0_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>dqpsk</value>
-    </param>
-    <param>
-      <key>samples_per_symbol</key>
-      <value>sps</value>
-    </param>
-    <param>
-      <key>excess_bw</key>
-      <value>0.35</value>
-    </param>
-    <param>
-      <key>gray_code</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>verbose</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>log</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(281, 207)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>gr_multiply_const_vxx</key>
-    <param>
-      <key>id</key>
-      <value>gr_multiply_const_vxx_0_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>const</key>
-      <value>sig_amp0</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(497, 131)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>id</key>
-      <value>sps</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>2</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(14, 359)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>blks2_dxpsk_mod</key>
-    <param>
-      <key>id</key>
-      <value>blks2_dxpsk_mod_0_0_1</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>dqpsk</value>
-    </param>
-    <param>
-      <key>samples_per_symbol</key>
-      <value>sps</value>
-    </param>
-    <param>
-      <key>excess_bw</key>
-      <value>0.35</value>
-    </param>
-    <param>
-      <key>gray_code</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>verbose</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>log</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(280, 557)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>bpsk_tx</key>
-    <param>
-      <key>id</key>
-      <value>bpsk_tx_0</value>
+      <value>qpsk_tx_3</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -1288,7 +1016,7 @@
     </param>
     <param>
       <key>sps</key>
-      <value>1</value>
+      <value>sps</value>
     </param>
     <param>
       <key>excess_bw</key>
@@ -1296,7 +1024,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(248, 123)</value>
+      <value>(245, 332)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1327,7 +1055,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(496, 407)</value>
+      <value>(497, 268)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1338,7 +1066,7 @@
     <key>bpsk_tx</key>
     <param>
       <key>id</key>
-      <value>bpsk_tx_0_0</value>
+      <value>bpsk_tx_2</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -1346,7 +1074,7 @@
     </param>
     <param>
       <key>sps</key>
-      <value>1</value>
+      <value>sps</value>
     </param>
     <param>
       <key>excess_bw</key>
@@ -1354,7 +1082,177 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(255, 399)</value>
+      <value>(244, 260)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>gr_multiply_const_vxx</key>
+    <param>
+      <key>id</key>
+      <value>gr_multiply_const_vxx_0_1</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>const</key>
+      <value>sig_amp1</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(496, 199)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>bpsk_tx</key>
+    <param>
+      <key>id</key>
+      <value>bpsk_tx_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>sps</key>
+      <value>sps</value>
+    </param>
+    <param>
+      <key>excess_bw</key>
+      <value>0.35</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(245, 122)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>gr_multiply_const_vxx</key>
+    <param>
+      <key>id</key>
+      <value>gr_multiply_const_vxx_0_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>const</key>
+      <value>sig_amp0</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(494, 130)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>gr_multiply_const_vxx</key>
+    <param>
+      <key>id</key>
+      <value>gr_multiply_const_vxx_0_1_1</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>const</key>
+      <value>sig_amp3</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(497, 340)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>id</key>
+      <value>sps</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(14, 359)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>qpsk_tx</key>
+    <param>
+      <key>id</key>
+      <value>qpsk_tx_1</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>sps</key>
+      <value>sps</value>
+    </param>
+    <param>
+      <key>excess_bw</key>
+      <value>0.35</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(244, 191)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1380,52 +1278,22 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>gr_multiply_const_vxx_0_0</source_block_id>
-    <sink_block_id>gr_pfb_synthesis_filterbank_ccf_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>gr_multiply_const_vxx_0_1</source_block_id>
-    <sink_block_id>gr_pfb_synthesis_filterbank_ccf_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>1</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>gr_vector_source_x_0_0</source_block_id>
-    <sink_block_id>blks2_dxpsk_mod_0_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>blks2_dxpsk_mod_0_0</source_block_id>
-    <sink_block_id>gr_multiply_const_vxx_0_1</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>gr_vector_source_x_0_0_1</source_block_id>
-    <sink_block_id>blks2_dxpsk_mod_0_0_1</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>blks2_dxpsk_mod_0_0_1</source_block_id>
+    <source_block_id>qpsk_tx_3</source_block_id>
     <sink_block_id>gr_multiply_const_vxx_0_1_1</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>gr_multiply_const_vxx_0_1_0</source_block_id>
-    <sink_block_id>gr_pfb_synthesis_filterbank_ccf_0</sink_block_id>
+    <source_block_id>bpsk_tx_2</source_block_id>
+    <sink_block_id>gr_multiply_const_vxx_0_1_0</sink_block_id>
     <source_key>0</source_key>
-    <sink_key>2</sink_key>
+    <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>gr_multiply_const_vxx_0_1_1</source_block_id>
-    <sink_block_id>gr_pfb_synthesis_filterbank_ccf_0</sink_block_id>
+    <source_block_id>qpsk_tx_1</source_block_id>
+    <sink_block_id>gr_multiply_const_vxx_0_1</sink_block_id>
     <source_key>0</source_key>
-    <sink_key>3</sink_key>
+    <sink_key>0</sink_key>
   </connection>
   <connection>
     <source_block_id>bpsk_tx_0</source_block_id>
@@ -1434,8 +1302,26 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>bpsk_tx_0_0</source_block_id>
-    <sink_block_id>gr_multiply_const_vxx_0_1_0</sink_block_id>
+    <source_block_id>gr_multiply_const_vxx_0_1_1</source_block_id>
+    <sink_block_id>gr_pfb_synthesis_filterbank_ccf_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>3</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>gr_multiply_const_vxx_0_1_0</source_block_id>
+    <sink_block_id>gr_pfb_synthesis_filterbank_ccf_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>2</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>gr_multiply_const_vxx_0_1</source_block_id>
+    <sink_block_id>gr_pfb_synthesis_filterbank_ccf_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>1</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>gr_multiply_const_vxx_0_0</source_block_id>
+    <sink_block_id>gr_pfb_synthesis_filterbank_ccf_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
