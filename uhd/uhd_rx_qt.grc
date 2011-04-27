@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='ASCII'?>
 <flow_graph>
-  <timestamp>Tue Apr 19 21:17:15 2011</timestamp>
+  <timestamp>Fri Apr 22 17:47:57 2011</timestamp>
   <block>
     <key>options</key>
     <param>
@@ -160,41 +160,6 @@
     <param>
       <key>_coordinate</key>
       <value>(12, 233)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>parameter</key>
-    <param>
-      <key>id</key>
-      <value>ipaddr</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>label</key>
-      <value>IP Address</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>addr=192.168.10.2</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>string</value>
-    </param>
-    <param>
-      <key>short_id</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(176, 10)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -616,6 +581,41 @@
     <param>
       <key>_coordinate</key>
       <value>(12, 108)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>parameter</key>
+    <param>
+      <key>id</key>
+      <value>ipaddr</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value>IP Address</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>addr=192.168.100.2</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>string</value>
+    </param>
+    <param>
+      <key>short_id</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(176, 10)</value>
     </param>
     <param>
       <key>_rotation</key>

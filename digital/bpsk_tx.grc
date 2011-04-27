@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='ASCII'?>
 <flow_graph>
-  <timestamp>Mon Apr 18 12:56:12 2011</timestamp>
+  <timestamp>Tue Apr 26 11:53:19 2011</timestamp>
   <block>
     <key>options</key>
     <param>
@@ -242,29 +242,6 @@
     </param>
   </block>
   <block>
-    <key>variable</key>
-    <param>
-      <key>id</key>
-      <value>ntaps</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>11*nfilts*sps</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(14, 259)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
     <key>gr_vector_source_x</key>
     <param>
       <key>id</key>
@@ -417,6 +394,29 @@
     <param>
       <key>_coordinate</key>
       <value>(539, 304)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>id</key>
+      <value>ntaps</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>int(11*nfilts*sps)</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(14, 259)</value>
     </param>
     <param>
       <key>_rotation</key>
